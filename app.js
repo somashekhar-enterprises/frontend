@@ -24,9 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 };
 
-                ìf (recording) {
-                    sendAudioChunkToServer(event.data)
-                }
 
                 mediaRecorder.start();
             })
